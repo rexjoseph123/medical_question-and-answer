@@ -4,7 +4,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load data (update path as needed)
-data = pd.read_csv(r"C:\Users\rexjo\Downloads\archive (1)\train.csv")
+data = pd.read_csv("train.csv")
+
 
 # Use 'Question' as the context and 'Answer' as the answer column
 question_column = "Question"
